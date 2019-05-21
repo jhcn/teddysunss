@@ -2,10 +2,11 @@
 # Auto install Shadowsocks Server
 
 # 安装示例
+```shell
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/jhcn/teddysunss/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
-
+```
 shadowsocks.sh
 ===============
 - Description: Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
